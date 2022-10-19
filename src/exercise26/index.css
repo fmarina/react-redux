@@ -1,0 +1,83 @@
+.step-counter-main {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  padding: 1.2rem;
+  border: 1px solid #000;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  margin: 0 1rem;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 3%;
+  cursor: pointer;
+}
+
+.button-container button:first-child {
+  background-color: #f7853c;
+}
+
+.button-container button:last-child {
+  background-color: #4477f1;
+}
+
+section {
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.update-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.update-container p {
+  margin: 1rem 0;
+}
+
+.update-container input {
+  width: 2.2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  padding: 0.75rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.update-container button {
+  padding: 0.75rem;
+  background-color: #d8d8d8;
+  color: #000;
+  font-size: 1rem;
+  border: none;
+  border-radius: 3%;
+  cursor: pointer;
+}

@@ -1,0 +1,88 @@
+.items-list-box {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto 0;
+  padding: 1rem;
+  background-color: #4376ff;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+}
+
+.items-list-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #fff;
+}
+
+.items-list-header form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.item-done {
+  text-decoration: line-through;
+  color: #000;
+}
+
+.checkbox-item {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.items-list-box div input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  outline: transparent;
+}
+
+.items-list-box div input::placeholder {
+  color: rgb(235, 235, 235);
+  font-weight: 500;
+}
+
+.items-list-box button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.items-list-box img {
+  width: 1.2rem;
+  height: 1.2rem;
+  color: #fff;
+}
+
+.items-list-unorderlist {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #fff;
+  color: #000;
+  border-radius: 1rem;
+  list-style: none;
+}
+
+.items-list-unorderlist li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #4376ff;
+  margin-bottom: 0.75rem;
+}
+
+.items-list-unorderlist li button {
+  display: flex;
+  align-items: center;
+}

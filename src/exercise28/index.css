@@ -1,0 +1,73 @@
+.login-app-container {
+  width: 100%;
+  max-width: 47rem;
+  height: 500px;
+  margin: 2rem auto 0;
+  display: flex;
+  align-items: center;
+  background-image: url("../assets/city.jpeg");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(140, 140, 140);
+}
+
+.login-app-container h2 {
+  margin: 0.75rem 0;
+  color: #2e2e2e;
+  font-weight: 400;
+  text-align: left;
+}
+
+.login-app-container p {
+  color: #808080;
+  font-size: 0.875rem;
+}
+
+.login-app-container section {
+  width: 53%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.login-app-container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.login-app-container form label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0.75rem 0;
+  color: #808080;
+  font-size: 0.875rem;
+}
+
+.login-app-container form input {
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  background-color: #f9faff;
+  font-size: 1rem;
+  border: 1px solid #eff0f6;
+  border-radius: 0.25rem;
+}
+
+.login-app-container form button {
+  margin: 0.5rem;
+  padding: 0.5rem 2rem;
+  background: #ef6c02;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
